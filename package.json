@@ -6,10 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NightClover-code/web-cli-app/tree/master/packages/cli"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "commander": "^7.1.0"
-  }
+  "license": "ISC"
 }
