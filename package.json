@@ -1,6 +1,6 @@
 {
   "name": "web-code-cli",
-  "version": "1.0.0",
+  "version": "5.0.0",
   "description": "",
   "files": [
     "dist"
@@ -21,12 +21,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@web-code-cli/local-api": "^1.0.0",
+    "@web-code-cli/local-api": "^5.0.0",
     "commander": "^7.1.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.31",
     "esbuild": "0.8.26",
     "typescript": "^4.2.2"
-  }
+  },
+  "gitHead": "30a99b331ab21f9d601be75c54880a7655280344"
 }
