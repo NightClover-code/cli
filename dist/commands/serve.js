@@ -43,7 +43,7 @@ exports.serveCommand = void 0;
 //importing command & serve & path
 var path_1 = __importDefault(require("path"));
 var commander_1 = require("commander");
-var local_api_1 = require("local-api");
+var local_api_1 = require("@web-code-cli/local-api");
 //checking if in production mode
 var isProduction = process.env.NODE_ENV === 'production';
 //serve command
