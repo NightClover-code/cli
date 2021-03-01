@@ -9,6 +9,16 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "@web-code-cli/local-client": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@web-code-cli/local-api": "^5.0.0",
+    "commander": "^7.1.0",
+    "esbuild": "0.8.26",
+    "typescript": "^4.2.2"
+  },
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
     "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\"production\""
@@ -20,14 +30,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@web-code-cli/local-api": "^5.0.0",
-    "commander": "^7.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.31",
-    "esbuild": "0.8.26",
-    "typescript": "^4.2.2"
-  },
   "gitHead": "30a99b331ab21f9d601be75c54880a7655280344"
 }
